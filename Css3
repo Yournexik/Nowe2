@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffiShop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Lemon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <!-- Top bar -->
+        <header>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Orders</a>
+                <a href="#">Blog</a>
+                <a href="#">Coffe types</a>
+            </nav>
+            <div class="logo">
+                Coffi <span class="icon">☕</span>
+            </div>
+        </header>
+
+        <!-- Główna treść mockupu -->
+        <div class="mockup">
+            <h2>Calculate your order</h2>
+            
+            <div class="inner-box">
+                <!-- Lewa strona - formularz -->
+                <div class="form-area">
+                    <div class="input-row">
+                        <label>Enter coffee name</label>
+                        <input type="text" placeholder="[value]">
+                    </div>
+                    <div class="input-row">
+                        <label>Enter coffee weight</label>
+                        <input type="text" placeholder="[value]">
+                    </div>
+                    
+                    <div class="bottom-row">
+                        <button class="process-btn">Process</button>
+                        <div class="price-label">Order price:</div>
+                    </div>
+                </div>
+
+                <!-- Prawa strona - menu -->
+                <div class="menu-area">
+                    <
