@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #111;
+    font-family: system-ui, -apple-system, sans-serif;
+    padding: 20px;
+}
+
+.app {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+
+header {
+    background: #e76a3a;
+    color: white;
+    padding: 12px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cup {
+    font-size: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.main-content {
+    display: flex;
+    min-height: 520px;
+}
+
+.order-section {
+    flex: 1;
+    background: #e76a3a;
+    color: white;
+    padding: 50px 60px;
+}
+
+.order-section h1 {
+    font-size: 28px;
+    margin-bottom: 35px;
+}
+
+.form {
+    max-width: 420px;
+}
+
+.input-group {
+    margin-bottom: 25px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 14px 18px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.process-btn {
+    background: #7ed957;
+    color: white;
+    border: none;
+    padding: 13px 32px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.price {
+    margin-top: 35px;
+    font-size: 18px;
+}
+
+.dash {
+    font-size: 22px;
+}
+
+.menu-section {
+    width: 300px;
+    background: white;
+    padding: 45px 35px;
+    border-left: 1px solid #eee;
+}
+
+.menu-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.menu-section ul {
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+.menu-section li {
+    padding: 9px 0;
+    font-size: 16.5px;
+    color: #333;
+}
+
+.order-btn {
+    background: #4a7bff;
+    color: white;
+    border: none;
+    padding: 14px 0;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
