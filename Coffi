@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffiShop</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Lemon&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page">
+        <header>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Orders</a>
+                <a href="#">Blog</a>
+                <a href="#">Coffe types</a>
+            </nav>
+            <div class="logo">
+                Coffi <span class="cup">☕</span>
+            </div>
+        </header>
+
+        <div class="mockup">
+            <h2>Calculate your order</h2>
+            
+            <div class="content">
+                <!-- Lewa kolumna - formularz -->
+                <div class="form-box">
+                    <div class="input-group">
+                        <label>Enter coffee name</label>
+                        <input type="text" placeholder="[value]">
+                    </div>
+                    <div class="input-group">
+                        <label>Enter coffee weight</label>
+                        <input type="text" placeholder="[value]">
+                    </div>
+                    <button class="process">Process</button>
+                    <div class="price">Order price:</div>
+                </div>
+
+                <!-- Prawa kolumna - menu -->
+                <div class="menu-box">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li>Arabica</li>
+                        <li>Robusta</li>
+                        <li>Green</li>
+                        <li>Mocha</li>
+                        <li>No-caffeine</li>
+                    </ul>
+                    <button class="order-it">Order it!</button>
+                </div>
+            </div>
+        </div>
+
+        <footer>© 2024. Coffi</footer>
+    </div>
+</body>
+</html>
