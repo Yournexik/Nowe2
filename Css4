@@ -1,0 +1,138 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    background: #f4f4f4;
+    font-family: 'Jua', sans-serif;
+    padding: 20px;
+}
+
+.page {
+    max-width: 820px;
+    margin: 0 auto;
+    background: #2c2218;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+header {
+    background: #9A5D32;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 15px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon {
+    font-size: 32px;
+}
+
+.mockup {
+    background: #F5DEB3;
+    padding: 35px 45px;
+    color: #3c2f2f;
+}
+
+.mockup h2 {
+    font-family: 'Lemon', cursive;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.inner-box {
+    display: flex;
+    gap: 50px;
+    background: #B48C70;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.form-area {
+    flex: 1;
+}
+
+.input-row {
+    margin-bottom: 22px;
+}
+
+.input-row label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.input-row input {
+    width: 100%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 6px;
+    background: #E8E8E8;
+    font-size: 16px;
+}
+
+.bottom-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.process-btn {
+    background: #89FD7F;
+    color: black;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.price-label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.menu-area {
+    width: 220px;
+}
+
+.menu-area h3 {
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.menu-area ul {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.menu-area li {
+    padding: 6px 0;
+    font-size: 16.5px;
+}
+
+.order-btn {
+    background: #9A5D32;
+    color: white;
+    border: none;
+    padding: 13px 35px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
