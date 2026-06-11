@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Orders</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Coffee types</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="logo-box">
+            <h1>Coffi</h1>
+            <img src="coffee.png" alt="coffee">
+        </div>
+    </header>
+
+    <main>
+
+        <section class="calculator">
+
+            <h2>Calculate your order</h2>
+
+            <div class="form-box">
+
+                <label>Enter coffee name</label>
+                <input type="text" placeholder="[value]">
+
+                <label>Enter coffee weight</label>
+                <input type="number" placeholder="[value]">
+
+                <div class="buttons">
+                    <button>Process</button>
+                    <span>Order price:</span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <aside class="menu">
+
+            <h3>Menu</h3>
+
+            <ul>
+                <li>Arabica</li>
+                <li>Robusta</li>
+                <li>Grun</li>
+                <li>Mocha</li>
+                <li>No-caffine</li>
+            </ul>
+
+            <button class="order-btn">Order it!</button>
+
+        </aside>
+
+    </main>
+
+    <footer>
+        © 2025 Coffi
+    </footer>
+
+</div>
+
+</body>
+</html>
