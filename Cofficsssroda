@@ -1,0 +1,163 @@
+body{
+    margin:0;
+    background:#F5DEB3;
+}
+
+
+header{
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    font-size: 25px;
+}
+
+nav{
+    width: 55%;
+    height: 70px;
+    background-color: #A95D32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo-box{
+    flex:1;
+    background:#B48C70;
+    border-bottom-left-radius:50px;
+    display:flex;
+    height: 120px;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    position:relative;
+    overflow:hidden;
+}
+
+.logo-box h1{
+    color:white;
+    font-family:'Lemon', serif;
+    font-size:48px;
+    z-index:2;
+}
+.cup {
+    font-size: 52px;
+    z-index: 3;
+}
+
+.logo-box::before,
+.logo-box::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(154, 93, 50, 0.85);
+    z-index: 1;
+}
+
+.logo-box::before {
+    width: 180px;
+    height: 180px;
+    right: -40px;
+    top: -60px;
+}
+
+.logo-box::after {
+    width: 140px;
+    height: 140px;
+    right: 60px;
+    top: -30px;
+    background: rgba(169, 93, 50, 0.6);
+}
+
+main{
+    display:flex;
+}
+
+.calculator{
+    height: 260px;
+    width:60%;
+    background:#E8E8E8;
+    padding:25px;
+}
+
+.coffee-menu{
+    width:20%;
+    padding:25px;
+}
+
+.form-box{
+    background:#B48C70;
+    padding:20px;
+    border-radius:4px;
+}
+
+label{
+    display:block;
+    color:white;
+    margin-top:10px;
+}
+
+input{
+    width: 90%;
+}
+
+.result{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-top:15px;
+}
+
+.result span {
+    color: white;
+}
+
+button{
+    background:#A95D32;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    font-family:'Jua', sans-serif;
+    cursor:pointer;
+}
+
+.result button{
+    background:#89FD7F;
+    color:#5b4c00;
+}
+
+ul li{
+    margin-bottom:8px;
+}
+
+.coffee-menu button{
+    margin-top:30px;
+}
+
+footer{
+    padding: 1px;
+    font: size 14px;px;
+    color:#6d3f1d;
+}
+
+.jua-regular {
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lemon-regular {
+  font-family: "Lemon", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container{
+    width: 900px;
+    margin: 20px auto;
+}
