@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="coffi.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Jua&family=Lemon&display=swap" rel="stylesheet">
+</head>
+<body>
+ <header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Orders</a>
+        <a href="#">Blog</a>
+        <a href="#">Coffee types</a>
+    </nav>
+
+    <div class="logo-box">
+        <h1>Coffi</h1>
+     <span class="cup">☕</span>
+    </div>
+</header>
+
+<main>
+    <section class="calculator">
+
+        <h2>Calculate your order</h2>
+
+        <div class="form-box">
+            <label>Enter coffee name</label>
+       <input type="text" placeholder="[value]">
+
+            <label>Enter coffee weight</label>
+       <input type="number" placeholder="[value]">
+            <div class="result">
+                <button>Process</button>
+
+                <span>Order Price:</span>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="coffee-menu">
+
+        <h2>Menu</h2>
+
+        <ul>
+            <li>Arabica</li>
+            <li>Robusta</li>
+            <li>Green</li>
+            <li>Mocha</li>
+            <li>No-caffine</li>
+        </ul>
+
+        <button>Order it!</button>
+
+    </section>
+</main>
+
+<footer>
+    © 2024. Coffi
+</footer>
+</header>
+</header>
+</body>
+</html>
