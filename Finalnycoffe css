@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>CoffiShop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Lemon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style (1).css">
+</head>
+<body>
+    <div class="container">
+        
+        <nav class="nav-area">
+            <a href="#">Home</a>
+            <a href="#">Orders</a>
+            <a href="#">Blog</a>
+            <a href="#">Coffe types</a>
+        </nav>
+
+        <div class="logo-box">
+            <h1 class="logo-text">Coffi</h1>
+            <span class="logo-icon">☕</span>
+        </div>
+
+        <main class="calculator-area">
+    <h2 class="title-brown">Calculate your order</h2>
+    <form class="form">
+        <div class="form-box">
+            <label>Enter coffe name</label>
+            <input type="text" placeholder="[value]">
+        </div>
+        <div class="form-box">
+            <label>Enter coffe weight</label>
+            <input type="text" placeholder="[value]">
+        </div>
+        <div class="form-actions">
+            <button type="button" class="button cursor process-btn">Process</button>
+            <span class="price-text">Order price:</span>
+        </div>
+    </form>
+</main>
+
+        <aside class="main-right">
+            <h2 class="menu-title">Menu</h2>
+            <ul class="menu-list">
+                <li>Arabica</li>
+                <li>Robusta</li>
+                <li>Green</li>
+                <li>Mocha</li>
+                <li>No-caffine</li>
+            </ul>
+            <button type="button" class="button cursor order-btn">Order it!</button>
+        </aside>
+
+        <footer class="footer-area">
+            <div class="copyright-icon">C</div>
+            <span class="copyright-text">2024. Coffi</span>
+        </footer>
+
+    </div>
+</body>
+</html>
