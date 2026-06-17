@@ -1,61 +1,197 @@
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <title>CoffiShop</title>
-    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Lemon&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style (1).css">
-</head>
-<body>
-    <div class="container">
-        
-        <nav class="nav-area">
-            <a href="#">Home</a>
-            <a href="#">Orders</a>
-            <a href="#">Blog</a>
-            <a href="#">Coffe types</a>
-        </nav>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-        <div class="logo-box">
-            <h1 class="logo-text">Coffi</h1>
-            <span class="logo-icon">☕</span>
-        </div>
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Jua', sans-serif;
+    overflow: hidden;
+}
 
-        <main class="calculator-area">
-    <h2 class="title-brown">Calculate your order</h2>
-    <form class="form">
-        <div class="form-box">
-            <label>Enter coffe name</label>
-            <input type="text" placeholder="[value]">
-        </div>
-        <div class="form-box">
-            <label>Enter coffe weight</label>
-            <input type="text" placeholder="[value]">
-        </div>
-        <div class="form-actions">
-            <button type="button" class="button cursor process-btn">Process</button>
-            <span class="price-text">Order price:</span>
-        </div>
-    </form>
-</main>
+.container {
+    display: grid;
+    grid-template-columns: 62% 38%;
+    grid-template-rows: 155px 1fr 60px;
+    width: 100%;
+    height: 100vh;
+}
 
-        <aside class="main-right">
-            <h2 class="menu-title">Menu</h2>
-            <ul class="menu-list">
-                <li>Arabica</li>
-                <li>Robusta</li>
-                <li>Green</li>
-                <li>Mocha</li>
-                <li>No-caffine</li>
-            </ul>
-            <button type="button" class="button cursor order-btn">Order it!</button>
-        </aside>
+.nav-area {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #A16435;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
 
-        <footer class="footer-area">
-            <div class="copyright-icon">C</div>
-            <span class="copyright-text">2024. Coffi</span>
-        </footer>
+.nav-area a {
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    line-height: 1;
+}
 
-    </div>
-</body>
-</html>
+.logo-box {
+    grid-column: 2;
+    grid-row: 1;
+    background: #A16435 url("logo-bg (1).png") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    position: relative;
+    z-index: 10;
+    border-bottom-left-radius: 120px;
+    margin-left: -120px;
+    height: 185px;
+}
+
+.logo-text {
+    color: white;
+    font-size: 92px;
+    font-weight: normal;
+}
+
+.logo-icon {
+    font-size: 80px;
+    color: white;
+}
+
+.calculator-area {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: #E5E5E5;
+    padding: 90px 80px 40px;
+}
+
+.title-brown {
+    color: #7D3F12;
+    font-size: 82px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.form {
+    width: 720px;
+    background-color: #B98F72;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,.15);
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.form-box label {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.form-box input {
+    border: none;
+    background-color: #E5E5E5;
+    border-radius: 8px;
+    height: 78px;
+    padding: 0 20px;
+    font-size: 22px;
+    font-family: 'Jua', sans-serif;
+}
+
+.form-actions {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.process-btn {
+    background-color: #85F779;
+    color: #8B4513;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 35px;
+    font-size: 32px;
+}
+
+.price-text {
+    color: white;
+    font-size: 38px;
+}
+
+.main-right {
+    grid-column: 2;
+    grid-row: 2 / 4;
+    background-color: #F4DFB6;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 75px;
+}
+
+.menu-title {
+    font-family: 'Lemon', cursive;
+    color: #7D3F12;
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.menu-list {
+    padding-left: 40px;
+    font-size: 34px;
+    line-height: 1.8;
+}
+
+.order-btn {
+    width: 360px;
+    height: 90px;
+    background-color: #A16435;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 36px;
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.2);
+}
+
+.footer-area {
+    grid-column: 1;
+    grid-row: 3;
+    background-color: #F4DFB6;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-left: 18px;
+}
+
+.copyright-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #A16435;
+    color: #F4DFB6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.copyright-text {
+    color: #8B4513;
+    font-size: 18px;
+}
+
+.button {
+    font-family: 'Jua', sans-serif;
+    cursor: pointer;
+    border: none;
+}
