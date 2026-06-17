@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFO Anomalies</title>
+    <link rel="stylesheet" href="Ufo anomalies.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="ufo.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>👽 UFO Anomalies 🛸</h1>
+        <nav>
+            <a href="#">Strona główna</a>
+            <a href="#">Galeria</a>
+            <a href="#">O nas</a>
+            <a href="#">Kontakt</a>
+        </nav>
+    </header>
+    <hr>
+    <div id="main-wrapper">
+        <article>
+            <section>
+                <h2>Przykładowy artykuł strony vol.1</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Veniam impedit consequuntur fuga. Tempore veritatis aliquid
+                    accusantium eveniet. Nam libero voluptatem velit optio,
+                    modi atque amet odio dolorem fuga illum, facilis incidunt vitae esse.
+                    Cupiditate, consequatur vel voluptatum harum illum facilis maiores.
+                </p>
+            </section>
+            <section>
+                <h2>Przykładowy artykuł strony vol.2</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Veniam impedit consequuntur fuga. Tempore veritatis aliquid
+                    accusantium eveniet. Nam libero voluptatem velit optio,
+                    modi atque amet odio dolorem fuga illum, facilis incidunt vitae esse.
+                    Cupiditate, consequatur vel voluptatum harum illum facilis maiores.
+                </p>
+            </section>
+            <section>
+                <h2>Przykładowy artykuł strony vol.3</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Veniam impedit consequuntur fuga. Tempore veritatis aliquid
+                    accusantium eveniet. Nam libero voluptatem velit optio,
+                    modi atque amet odio dolorem fuga illum, facilis incidunt vitae esse.
+                    Cupiditate, consequatur vel voluptatum harum illum facilis maiores.
+                </p>
+            </section>
+            <section>
+                <h2>Przykładowy artykuł strony vol.4</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Veniam impedit consequuntur fuga. Tempore veritatis aliquid
+                    accusantium eveniet. Nam libero voluptatem velit optio,
+                    modi atque amet odio dolorem fuga illum, facilis incidunt vitae esse.
+                    Cupiditate, consequatur vel voluptatum harum illum facilis maiores.
+                </p>
+            </section>
+        </article>
+        <aside>
+            <form>
+                <h2>Dołącz do newslettera!</h2>
+
+                <label for="email">Adres e-mail</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Wprowadź adres email"
+                    required
+                    pattern="[A-Za-z0-9._+]+@gmail\.com">
+                <label>Wybierz swoją płeć</label>
+                <div class="radio-box">
+                    <label>
+                        <input
+                            type="radio"
+                            name="gender"
+                            value="Mężczyzna">
+                        Mężczyzna
+                    </label>
+                    <label>
+                        <input
+                            type="radio"
+                            name="gender"
+                            value="Kobieta">
+                        Kobieta
+                    </label>
+                    <label>
+                        <input
+                            type="radio"
+                            name="gender"
+                            value="Inne"
+                            checked>
+                        Inne
+                    </label>
+                </div>
+                <label class="check-box" id="robotLabel">
+                    <input
+                        type="checkbox"
+                        id="robotCheck"
+                        required>
+                    Nie jestem robotem
+                </label>
+                <button
+                    type="submit"
+                    id="sendBtn"
+                    disabled>
+
+                    Wyslij zapytanie
+                </button>
+            </form>
+        </aside>
+    </div>
+    <footer>
+        <h5>TEB Edukacja © 2023 - Imię i nazwisko</h5>
+    </footer>
+
+</body>
+
+</html>
